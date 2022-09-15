@@ -1,0 +1,10 @@
+query GetNote($getNoteId: String!) {
+  getNote(id: $getNoteId) {
+    id
+    pagex
+    pagey
+    body
+    createdAt
+    updatedAt
+  }
+}

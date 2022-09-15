@@ -1,0 +1,10 @@
+mutation SaveNote($createOrUpdateNoteInput: CreateOrUpdateNoteInput!) {
+  saveNote(createOrUpdateNoteInput: $createOrUpdateNoteInput) {
+    id
+    pagex
+    pagey
+    body
+    createdAt
+    updatedAt
+  }
+}

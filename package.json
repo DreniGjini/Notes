@@ -1,0 +1,13 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "prepare-backend": "cd api && npm install && npm run migration:generate && npm run migration:run ",
+    "prepare-frontend": "cd client && npm install && npm run build && npm run postbuild",
+    "prepare": "npm run prepare-backend && npm run prepare-frontend",
+    "finish": "cd api && npm run start"
+  },
+  "author": "",
+  "license": "ISC"
+}

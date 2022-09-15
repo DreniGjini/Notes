@@ -1,0 +1,10 @@
+query GetNotes {
+  getNotes {
+    id
+    pagex
+    pagey
+    body
+    updatedAt
+    createdAt
+  }
+}
